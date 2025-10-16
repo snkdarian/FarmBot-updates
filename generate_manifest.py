@@ -4,7 +4,7 @@ import os
 
 # === CONFIGURATION (edit once) ===
 GITHUB_USER = "snkdarian"
-GITHUB_REPO = "FarmBot"
+GITHUB_REPO = "FarmBot-updates"
 
 EXE_PATH = os.path.join("output", "FarmBot.exe")
 MANIFEST_PATH = "manifest.json"
