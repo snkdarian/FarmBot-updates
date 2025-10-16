@@ -7,7 +7,7 @@ GITHUB_USER = "snkdarian"
 GITHUB_REPO = "FarmBot-updates"
 
 EXE_PATH = os.path.join("output", "FarmBot.exe")
-MANIFEST_PATH = "manifest.json"
+MANIFEST_PATH = "C:/Work/FarmBot-updates/manifest.json"
 
 # ================================
 
