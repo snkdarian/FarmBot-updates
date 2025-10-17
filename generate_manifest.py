@@ -6,7 +6,7 @@ import os
 GITHUB_USER = "snkdarian"
 GITHUB_REPO = "FarmBot-updates"
 
-EXE_PATH = os.path.join("output", "FarmBot.exe")
+EXE_PATH = "C:/Users/Darian/Downloads/FarmBot.exe"
 MANIFEST_PATH = "C:/Work/FarmBot-updates/manifest.json"
 
 # ================================
@@ -24,7 +24,7 @@ def main():
         print(f"[Error] File not found: {EXE_PATH}")
         return
 
-    version = input("Enter version (e.g. 1.2.0): ").strip()
+    version = input("Enter version (e.g. 1.2): ").strip()
     if not version:
         print("[Error] Version cannot be empty.")
         return
